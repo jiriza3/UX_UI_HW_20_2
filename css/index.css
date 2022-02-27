@@ -1,0 +1,63 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Jura', sans-serif;
+}
+
+/* Logo Bar*/
+.customNav {
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+
+/* Jumbotron  */
+.jumbotron {
+  background-image: url(../images/Monopoly.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(75vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+/* Game Cards Homepage */
+
+.featureGames-header{
+  text-align: center;
+}
+
+.cardContainer {
+  text-align: center;
+}
+
+.gameType  {
+  padding: 0px 30px 30px 30px;
+}
+
+.content {
+  padding: 50px;
+}
+
+.checkOut {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
